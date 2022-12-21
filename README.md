@@ -1,5 +1,7 @@
 Zee-App
 
+This website is a group project made by 5 peoples. The App containes authentication where there contains login and sign-up. The backend data is made up of render.com from ourselves that's why it contain limited data. It also contains Search functionality
+
 used language:-
 
 - React
@@ -7,6 +9,8 @@ used language:-
 - HTML
 - CSS
 - Chakara UI
+- Firebase
+- Render.com
 
 
 ## Screen Short
