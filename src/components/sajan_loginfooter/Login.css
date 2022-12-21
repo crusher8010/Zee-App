@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 27%;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid green; */
+    height: auto;
+    margin: auto;
+    margin-top: 55px;
+    text-align: center;
+}
+
+.login-logo {
+    width: 69.5%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: auto;  
+    margin-top: 40px;
+    margin-bottom: 27px;
+}
+
+.welcome {
+    color: #cfc3ca;
+    /* font-weight: 370; */
+    margin-top: 15px;
+}
+
+.or {
+    color: white;
+    border-radius: 50%;
+    background-color: rgb(40, 32, 48);
+    border: none;
+    padding: 5px 10px;
+}
+.google-btn:hover{
+    cursor: pointer;
+}
+input[type=email],
+[type=password] {
+    outline: none;
+    color: white;
+    border: none;
+    background: none;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    height: 23px;
+    background: transparent;
+    background-color: #11051C;
+}
+
+.login-input p {
+    text-align: left;
+    margin-top: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 8px;  
+    color: gray;
+
+}
+
+.forgot {
+    margin-top: 60px;
+    color: #a785ff;
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+input[type=submit] {
+
+    width: 100%;
+    color: #74798b;
+    border: 1px solid;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+input[type=submit]:hover {
+    background-color: #8230c6;
+    cursor: pointer;
+    color: white;
+}
+
+/* Register---page-----css */
+.login-logo-google {
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: auto;
+    margin-top: 50px;
+    width: 90%;
+    
+}
+
+.login-logo-google>div img{
+background-color: white;
+}
+ .login-logo-google>div+div span{
+    background-color: white;
+    color: #d6006b;
+    font-weight: 500;
+    padding: 8px;
+    }
+    .login-logo-google>div{
+        padding: 5px 0px;
+
+    }
+   .reg-or{
+    color: white;
+    border-radius: 50%;
+    background-color: #450948;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 40px;
+   } 
+   .existing{
+    margin-top: 13px;
+    font-size: 13px;
+   }
+   .existing>span+span{
+    color: #a785ff;
+   }
+   /* .heading{
+    font-weight: bold;
+   } */
+   .cancle{
+    margin-left: 800px;
+    color: gray;
+   }
+    
+form {
+    margin-bottom: 20px;
+}
+@media (max-width:768px) {
+    .login-logo {
+        width: 69.5%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: auto;  
+        margin-top: 40px;
+        margin-bottom: 27px;
+    }
+    .login-logo >div{
+    margin-bottom: 20px;
+    }
+    .main {
+        width: 60%;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid green; */
+        height: auto;
+        margin: auto;
+        margin-top: 55px;
+        text-align: center;
+    }
+}
+@media (min-width:769px)  and (max-width:1000px){
+    .login-logo {
+        width: 69.5%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: auto;  
+        margin-top: 40px;
+        margin-bottom: 27px;
+    }
+    .login-logo >div{
+        margin-bottom: 20px;
+        }
+}
