@@ -149,7 +149,7 @@
 
 import React, { useState } from "react";
 import "./Buyplan.css";
-import { AiOutlineCheck, AiOutlineCloseSquare } from "react-icons/ai";
+import { AiOutlineCheck } from "react-icons/ai";
 import { CiPercent } from "react-icons/ci";
 import { Link } from "react-router-dom";
 

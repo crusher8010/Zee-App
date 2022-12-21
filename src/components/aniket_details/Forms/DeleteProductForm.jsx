@@ -1,12 +1,10 @@
 import {
-  Alert,
-  AlertIcon,
   Box,
   Button,
   FormControl,
   Heading,
   Input,
-  Text,
+  Text, Container, Alert, AlertIcon, AlertDescription
 } from "@chakra-ui/react";
 import React, { useState } from "react";
 import { deleteReq_Products } from "../utils";
@@ -37,6 +35,32 @@ const DeleteProductForm = () => {
       });
     setID("");
   };
+
+  if (error) {
+    return (
+      <Container
+        width={{
+          base: "full",
+          sm: "full",
+          xm: "container.xl",
+          lg: "container.lg",
+        }}
+        centerContent={true}
+      >
+        <Alert
+          status={"error"}
+          py={{ base: 4, sm: 4, md: 4, lg: 6 }}
+          my={{ base: 24, sm: 24, md: 28, lg: 40 }}
+          px={{ base: 1, sm: 1, md: 4, lg: 6 }}
+        >
+          <AlertIcon />
+          <AlertDescription>
+            Something Went Wrong. Please Give Correct Input.
+          </AlertDescription>
+        </Alert>
+      </Container>
+    );
+  }
 
   return (
     <Box border="none">

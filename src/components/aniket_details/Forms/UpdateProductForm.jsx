@@ -1,4 +1,4 @@
-import { Box, Button, Heading, Input, Text } from "@chakra-ui/react";
+import { Box, Button, Heading, Input, Text, Container, Alert, AlertDescription, AlertIcon } from "@chakra-ui/react";
 import React, { useState } from "react";
 import { patchReq_Products } from "../utils";
 
@@ -35,6 +35,32 @@ const UpdateProductForm = () => {
     setFormData(initState);
     setID("");
   };
+
+  if (error) {
+    return (
+      <Container
+        width={{
+          base: "full",
+          sm: "full",
+          xm: "container.xl",
+          lg: "container.lg",
+        }}
+        centerContent={true}
+      >
+        <Alert
+          status={"error"}
+          py={{ base: 4, sm: 4, md: 4, lg: 6 }}
+          my={{ base: 24, sm: 24, md: 28, lg: 40 }}
+          px={{ base: 1, sm: 1, md: 4, lg: 6 }}
+        >
+          <AlertIcon />
+          <AlertDescription>
+            Something Went Wrong. Please Give Correct Input.
+          </AlertDescription>
+        </Alert>
+      </Container>
+    );
+  }
 
   return (
     <Box border="none">

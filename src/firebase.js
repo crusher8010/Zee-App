@@ -1,6 +1,6 @@
 
 import { initializeApp } from "firebase/app";
-import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
+import { getAuth } from "firebase/auth";
 const firebaseConfig = {
   apiKey: "AIzaSyDsMsw8ZDgFuBgmLoz-aWmzs0vh8YGZ6IU",
   authDomain: "login-signup-3bbd7.firebaseapp.com",
@@ -11,5 +11,5 @@ const firebaseConfig = {
   measurementId: "G-GE34HF6KQ4"
 };
 const app = initializeApp(firebaseConfig);
-export const auth=getAuth(app);
+export const auth = getAuth(app);
 export default app

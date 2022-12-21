@@ -1,16 +1,10 @@
 import { Box, Flex, Heading } from "@chakra-ui/react";
-import React, { useEffect } from "react";
+import React from "react";
 import AdminContent from "./AdminContent";
 import AdminDetails from "./AdminDetails";
-import { getReq_Products } from "./utils";
 
 const AdminDashboard = () => {
   // get data
-  const getData = async () => {
-    let data = await getReq_Products();
-    console.log(data);
-    return data;
-  };
 
   // useEffect(() => {
   //   getData();
