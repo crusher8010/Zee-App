@@ -1,63 +1,35 @@
-# Getting Started with Create React App
+Zee-App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+used language:-
 
-## Available Scripts
+- React
+- Javascript
+- HTML
+- CSS
+- Chakara UI
 
-In the project directory, you can run:
 
-### `npm start`
+## Screen Short
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Screenshot (106)](https://scontent.fccu31-1.fna.fbcdn.net/v/t39.30808-6/320739085_679178100471108_1484124599523456325_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=T6PheFtOHoMAX85Ijm1&_nc_oc=AQmnJdVZxpNwQJiJ9qawMlttoKYrhSrM26OoMHpRpslVm8gD5uQYD2vqWU0AJxwkEWs&tn=ddrwCrqoNHR1QEX0&_nc_ht=scontent.fccu31-1.fna&oh=00_AfAJGusNr5mz8g8fn-ZKOb-D0D9TevsGCm40Sf_atgAlvA&oe=63A47315)
+- Home Nvbar
+![Screenshot (108)](https://scontent.fccu31-1.fna.fbcdn.net/v/t39.30808-6/320630147_2901745839958088_3400858593572709837_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=Vt4ULP4kU5MAX-6v-IJ&_nc_ht=scontent.fccu31-1.fna&oh=00_AfDxxoOh2JcLp9TZm09MdO_ZZJsUUpSJtEhnnCxOqNZA9g&oe=63A4203E)
+- Navbar Footer
+![Screenshot (110)](https://scontent.fccu31-1.fna.fbcdn.net/v/t39.30808-6/320658870_1052191552840889_8456878309192129504_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=PishIqxQAEQAX-_UuXE&_nc_ht=scontent.fccu31-1.fna&oh=00_AfAq67ryTor8L3bUArjzy9LZjETB3JiVT2jNL47Tnj50xg&oe=63A4A2EA)
+- Video play
+![Screenshot (111)](https://scontent.fccu31-1.fna.fbcdn.net/v/t39.30808-6/319705695_438401481682429_2281627950140888512_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=OQKd4exvxnMAX_Fpj2v&_nc_ht=scontent.fccu31-1.fna&oh=00_AfAE27-mjSVINIEl-M2MmlrAnz67sG6mL8FdgQbX-EOxaA&oe=63A4AB2A)
+- Login
+![Screenshot (112)](https://scontent.fccu31-1.fna.fbcdn.net/v/t39.30808-6/320550339_1788743734827782_4424540287411732247_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=zFjKUEr-E1QAX8pQV-8&_nc_ht=scontent.fccu31-1.fna&oh=00_AfClrlOPT3G2QHD6ddDfoPu39r3_MbSHtIxObscbVW8d_Q&oe=63A3DA1F)
+- Buynow plan
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+Team Member:-
+- Rittik Haldar
+- Anirudha Mandal
+- Aniket Pandey
+- Moumita Das
+- Sajan Kumar
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
