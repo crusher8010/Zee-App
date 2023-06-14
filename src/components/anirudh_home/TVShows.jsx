@@ -6,41 +6,41 @@ import 'react-multi-carousel/lib/styles.css';
 import "./Home.css";
 
 const slide2 = [
-    { id: 1, url: "https://akamaividz2.zee5.com/image/upload/w_1188,h_475,c_scale,f_webp,q_auto:eco/resources/0-6-3510/cover/1920x7708b56110e9bcd4529b3d75b6d9ffe5acf.jpg", alt: "s1" },
-    { id: 2, url: "https://akamaividz2.zee5.com/image/upload/w_899,h_506,c_scale,f_webp,q_auto:eco/resources/0-6-4z5214554/app_cover/1440x81084e02a2c8d2b492aafab8a94619eb3ce.jpg", alt: "s2" },
+    { id: 1, url: "https://akamaividz2.zee5.com/image/upload/w_1188,h_475,c_scale,f_webp,q_auto:eco/resources/0-6-366/cover/1920x7707c6fa495b25c4069b41907f3b7b75b55.jpg", alt: "s1" },
+    { id: 2, url: "https://akamaividz2.zee5.com/image/upload/w_1188,h_475,c_scale,f_webp,q_auto:eco/resources/0-6-4z5323141/cover/1920x7708fe26a5a8cda4a40bc41c5a8951d8910.jpg", alt: "s2" },
     { id: 3, url: "https://akamaividz2.zee5.com/image/upload/w_899,h_506,c_scale,f_webp,q_auto:eco/resources/0-6-3392/app_cover/1440x8102a557f472d8447feb0fbb6f82cddd65c.jpg", alt: "s3" },
-    { id: 4, url: "https://akamaividz2.zee5.com/image/upload/w_899,h_506,c_scale,f_webp,q_auto:eco/resources/0-6-366/app_cover/1440x810671bbd9b62df45bcb7801c9b6e11cac0.jpg", alt: "s4" },
-    { id: 5, url: "https://akamaividz2.zee5.com/image/upload/w_899,h_506,c_scale,f_webp,q_auto:eco/resources/0-6-3521/app_cover/1440x810e86821d1288a46dca976479d1e9933ce.jpg", alt: "s5" },
-    { id: 6, url: "https://akamaividz2.zee5.com/image/upload/w_899,h_506,c_scale,f_webp,q_auto:eco/resources/0-6-127/app_cover/1440x810c832d8e7eab44467a279d4b576743600.jpg", alt: "s6" },
-    { id: 7, url: "https://akamaividz2.zee5.com/image/upload/w_899,h_506,c_scale,f_webp,q_auto:eco/resources/0-6-4z5185728/app_cover/1440x810a90a1ae9a596459c814c6f97ba0192c1.jpg", alt: "s7" }
+    { id: 4, url: "https://akamaividz2.zee5.com/image/upload/w_1188,h_475,c_scale,f_webp,q_auto:eco/resources/0-6-4z5185728/cover/1920x7705ee8667a8a1846ea863f2c625345a58e.jpg", alt: "s4" },
+    { id: 5, url: "https://akamaividz2.zee5.com/image/upload/w_1188,h_475,c_scale,f_webp,q_auto:eco/resources/0-6-4z5130241/cover/1920x770f95dfa27975742baba8be34fc70a90ac.jpg", alt: "s5" },
+    { id: 6, url: "https://akamaividz2.zee5.com/image/upload/w_1188,h_475,c_scale,f_webp,q_auto:eco/resources/0-6-4z5281484/cover/1920x770b778e53f60964e95b0dd5e1b90edb1ff.jpg", alt: "s6" },
+    { id: 7, url: "https://akamaividz2.zee5.com/image/upload/w_1188,h_475,c_scale,f_webp,q_auto:eco/resources/0-6-127/cover/1920x7707303f05fe6b147409d75afaf2b08d8f2.jpg", alt: "s7" }
 ];
 
 const slide3 = [
-    { id: 1, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-3510/portrait/1920x7708b56110e9bcd4529b3d75b6d9ffe5acf.jpg", alt: "dm1" },
-    { id: 2, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-127/portrait/1920x77016130f4e4ae84c7b8638e5dfdee6f207.jpg", alt: "dm2" },
-    { id: 3, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-366/portrait/1920x77034e3eda8bcc4448f9d5d0bd3cb3b370d.jpg", alt: "dm3" },
-    { id: 4, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-3392/portrait/1920x770a15c26ed517c493798aa0019ed684045.jpg", alt: "dm4" },
-    { id: 5, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z5130241/portrait/1920x770dc6d9c3fc4474045bc78e2150330d1cb.jpg", alt: "dm5" },
-    { id: 6, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z5247981/portrait/1920x7708fc52d94d26049c7b3406d3bf07de570.jpg", alt: "dm6" },
-    { id: 7, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z5214664/portrait/1920x770b72bac5a9aa44b91954373eee6383996.jpg", alt: "dm7" },
-    { id: 8, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z5185799/portrait/1920x770c1ee4b160aee4d6293ce925e3be6693e.jpg", alt: "dm8" },
-    { id: 9, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z5101301/portrait/1920x770910a9ef38ddd4048b010e71666000049f46baafce9f64b74b19f0e9804a0911e.jpg", alt: "dm9" },
-    { id: 10, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z520450/portrait/1920x7707be825d8e0b149478aaa493d90ecf34f.jpg", alt: "dm10" },
-    { id: 11, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z5210788/portrait/1920x770bc99ee7ff53a443fbf8dda1c9682c9a8.jpg", alt: "dm11" },
+    { id: 1, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z5130241/portrait/1920x770f95dfa27975742baba8be34fc70a90ac.jpg", alt: "dm1" },
+    { id: 2, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-366/portrait/1920x7707c6fa495b25c4069b41907f3b7b75b55.jpg", alt: "dm2" },
+    { id: 3, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-127/portrait/1920x7707303f05fe6b147409d75afaf2b08d8f2.jpg", alt: "dm3" },
+    { id: 4, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-3392/portrait/1920x770cad07fbd6fa24823959e71ec73adf074.jpg", alt: "dm4" },
+    { id: 5, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-3510/portrait/1920x770173f5773becc4a578ec06405ec757afa.jpg", alt: "dm5" },
+    { id: 6, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z5247981/portrait/1920x770dd93ac35bd644ff797dd65fa2bd7a20a.jpg", alt: "dm6" },
+    { id: 7, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z5214664/portrait/1920x770f0335eb6a296494dadf9beda857a157f.jpg", alt: "dm7" },
+    { id: 8, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z5304958/portrait/1920x7706233324748e1417b86bde31299826fee.jpg", alt: "dm8" },
+    { id: 9, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z520450/portrait/1920x7707be825d8e0b149478aaa493d90ecf34f.jpg", alt: "dm9" },
+    { id: 10, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z5101301/portrait/1920x770910a9ef38ddd4048b010e71666000049f46baafce9f64b74b19f0e9804a0911e.jpg", alt: "dm10" },
+    { id: 11, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z5318988/portrait/1920x770cec74f31178a44b1aa03e7a8339f8944.jpg", alt: "dm11" },
     { id: 12, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-3497/portrait/1920x7705c2503a61641427e8e4f2a4c54609f8c.jpg", alt: "dm12" }
 ];
 
 const slide4 = [
     { id: 1, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-447/portrait/1920x770086b8e66e4e041e998bb1c0656bfc9f5.jpg", alt: "s1" },
-    { id: 2, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z5214664/portrait/1920x770b72bac5a9aa44b91954373eee6383996.jpg", alt: "s2" },
+    { id: 2, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-2275/portrait/1920x7704e07fdd97fd64af1bc38aec8cc82a9a0.jpg", alt: "s2" },
     { id: 3, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-135/portrait/1920x7708b572ba26c2b45969a993ccb59e197b9.jpg", alt: "s3" },
     { id: 4, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-139/portrait/1920x770213aae2491aa495784ab0fa7040b032f.jpg", alt: "s4" },
     { id: 5, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-319/portrait/1920x7701501891863.jpg", alt: "s5" },
     { id: 6, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-1248/portrait/mainbhiardhanginihindisho.jpg", alt: "s6" },
     { id: 7, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z5222846/portrait/1920x77084366af46f234dfcae2ca91d563c360c.jpg", alt: "s7" },
-    { id: 8, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-2275/portrait/1920x770dda4eac42f604a7c935acc7a74fe8cff.jpg", alt: "s8" },
-    { id: 9, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z5210380/portrait/1920x7703d930e1ff0e04086bca5ff621b238642.jpg", alt: "s9" },
-    { id: 10, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-199/portrait/1920x770efa96520d9cd49f78f4ba461c88af0be.jpg", alt: "s10" },
+    { id: 8, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-199/portrait/1920x770b66f430e999c4fb7a3937404520e79fe.jpg", alt: "s8" },
+    { id: 9, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z5210380/portrait/1920x7706d71911f381c4f69a43e353f21eb7d55.jpg", alt: "s9" },
+    { id: 10, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-124/portrait/1920x770224b02ffbab04efdbeda2b6d4158d8fa.jpg", alt: "s10" },
     { id: 11, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z5159930/portrait/1920x770720753464a0244909d061e6defa74fd6.jpg", alt: "s11" },
     { id: 12, url: "https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z5202806/portrait/1920x7700aed91fea69d4571a9982d02c618d587.jpg", alt: "s12" }
 ];
@@ -78,20 +78,20 @@ const languages = [
 ]
 
 const Genere = [
-    {id : 1, url: "https://akamaividz2.zee5.com/image/upload/platform/tvshow/romantic.jpg", alt: "Romantic"},
-    {id : 2, url: "https://akamaividz2.zee5.com/image/upload/platform/tvshow/reality.jpg", alt: "Reality"},
-    {id : 3, url: "https://akamaividz2.zee5.com/image/upload/platform/Tvshow/Mythology-genre.jpg", alt: "Mythology"},
-    {id : 4, url: "https://akamaividz2.zee5.com/image/upload/platform/Tvshow/Horror-genre.jpg", alt: "Horror"},
-    {id : 5, url: "https://akamaividz2.zee5.com/image/upload/platform/Tvshow/Supernatural-genre.jpg", alt: "Supernatural"},
-    {id : 6, url: "https://akamaividz2.zee5.com/image/upload/platform/Tvshow/Devotional-genre.jpg", alt: "Devotional"},
-    {id : 7, url: "https://akamaividz2.zee5.com/image/upload/platform/Tvshow/Comedy-genre.jpg", alt: "Comedy"},
-    {id : 8, url: "https://akamaividz2.zee5.com/image/upload/platform/Tvshow/Crime-genre.jpg", alt: "Crime"},
-    {id : 9, url: "https://akamaividz2.zee5.com/image/upload/platform/tvshow/chat.jpg", alt: "Chat"},
-    {id : 10, url: "https://akamaividz2.zee5.com/image/upload/platform/Tvshow/Thriller-genre.jpg", alt: "Thriller"},
-    {id : 11, url: "https://akamaividz2.zee5.com/image/upload/platform/Tvshow/Suspense-genre.jpg", alt: "Suspense"},
-    {id:12, url: "https://akamaividz2.zee5.com/image/upload/platform/Tvshow/Fantasy-genre.jpg", alt:"Fantasy"},
-    {id:13, url: "https://akamaividz2.zee5.com/image/upload/platform/Tvshow/Drama-genre.jpg", alt:"Drama"},
-    {id:14, url: "https://akamaividz2.zee5.com/image/upload/platform/Tvshow/Family-genre.jpg", alt:"Family"}
+    { id: 1, url: "https://akamaividz2.zee5.com/image/upload/platform/tvshow/romantic.jpg", alt: "Romantic" },
+    { id: 2, url: "https://akamaividz2.zee5.com/image/upload/platform/tvshow/reality.jpg", alt: "Reality" },
+    { id: 3, url: "https://akamaividz2.zee5.com/image/upload/platform/Tvshow/Mythology-genre.jpg", alt: "Mythology" },
+    { id: 4, url: "https://akamaividz2.zee5.com/image/upload/platform/Tvshow/Horror-genre.jpg", alt: "Horror" },
+    { id: 5, url: "https://akamaividz2.zee5.com/image/upload/platform/Tvshow/Supernatural-genre.jpg", alt: "Supernatural" },
+    { id: 6, url: "https://akamaividz2.zee5.com/image/upload/platform/Tvshow/Devotional-genre.jpg", alt: "Devotional" },
+    { id: 7, url: "https://akamaividz2.zee5.com/image/upload/platform/Tvshow/Comedy-genre.jpg", alt: "Comedy" },
+    { id: 8, url: "https://akamaividz2.zee5.com/image/upload/platform/Tvshow/Crime-genre.jpg", alt: "Crime" },
+    { id: 9, url: "https://akamaividz2.zee5.com/image/upload/platform/tvshow/chat.jpg", alt: "Chat" },
+    { id: 10, url: "https://akamaividz2.zee5.com/image/upload/platform/Tvshow/Thriller-genre.jpg", alt: "Thriller" },
+    { id: 11, url: "https://akamaividz2.zee5.com/image/upload/platform/Tvshow/Suspense-genre.jpg", alt: "Suspense" },
+    { id: 12, url: "https://akamaividz2.zee5.com/image/upload/platform/Tvshow/Fantasy-genre.jpg", alt: "Fantasy" },
+    { id: 13, url: "https://akamaividz2.zee5.com/image/upload/platform/Tvshow/Drama-genre.jpg", alt: "Drama" },
+    { id: 14, url: "https://akamaividz2.zee5.com/image/upload/platform/Tvshow/Family-genre.jpg", alt: "Family" }
 ]
 
 function TVShows() {
